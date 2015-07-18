@@ -1,0 +1,310 @@
+body{
+
+	background-color: teal;
+
+}
+
+
+/*
+FFF8DC
+F5DEB3
+*/
+
+
+
+
+
+.main{
+
+	width: 510px;
+	height: 640px;
+	position: relative;
+	z-index: 0;
+	min-width: 200px;
+	background-color: white;
+	top: -10px;
+	left: 360px;
+}
+
+
+
+/*karij banner*/
+.main .KARIJ_BANNER_LOGO{
+
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	min-width: 300px;
+	left: 5px;
+	z-index:2;
+	top:5px;
+
+
+}
+
+
+.KARIJ_BANNER_LOGO{
+
+background-repeat: none;
+}
+
+
+.KARIJ_FOOTER{
+
+background-repeat: none;
+}
+
+
+
+/* Main  box*/
+
+
+
+
+/*IMAGES*/
+.KARIJ_BANNER_LOGO {
+  background-image: url('../images/KARIJ_BANNER_LOGO.png');
+}
+
+.KARIJ_FOOTER{
+  background-image: url('../images/KARIJ_FOOTER.png');
+}
+
+
+
+
+
+
+/*Header list stuff*/
+
+.tagline {
+	width: 500px;
+	height: 110px;
+	position: absolute;
+	z-index: 6;
+	min-width: 200px;
+	top: 153px;
+	left:148px;
+	font-size:16px;
+	font-family: 'Comfortaa', cursive;
+}
+
+
+
+
+
+
+
+/*Clear and Total BOX movement*/
+	
+.header {
+	width: 700px;
+	height: 110px;
+	position:absolute;
+	z-index: 5;
+	min-width: 200px;
+	top: 213px;
+	left:-155px;
+
+}
+
+
+
+/*Clear and Total TEXT movement*/
+#words li{
+	display:inline;
+	padding-left: 175px;
+	font-size:15px;
+	Font-family: 'Lobster', cursive;
+
+}
+
+
+
+
+
+
+
+/*Creat Your List BOX movement*/
+.header2 {
+	width: 700px;
+	height: 110px;
+	position:absolute;
+	z-index: 3;
+	min-width: 200px;
+	top: 320px;
+	left:150px;
+
+}
+
+
+/*Create Your Lsit TEXT*/
+#words2 li{
+	display:inline;
+	font-size:20px;
+	Font-family: 'Lobster', cursive;
+
+}
+
+
+
+
+
+
+
+/* Active text boxes*/
+
+/* Clear Button*/
+.button{
+	display:block;
+	width: 100px;
+	height: 60px;
+	position:absolute;
+	  border-style: none;
+	z-index: 8;
+	min-width: 50px;
+	top: 225px;
+	/*outline: red 1px solid;*/
+	left:200px;
+	border-radius: 50px;
+	background-color: wheat;
+	Font-family: 'Lobster', cursive;
+
+	
+}
+
+.button:hover{
+    background-color: orange;
+    transition: all 0.3s ease;
+}
+
+
+
+/*Favorites Button*/
+.Favbutton{
+	display:block;
+	width: 100px;
+	height: 60px;
+	position:absolute;
+	  border-style: none;
+	z-index: 8;
+	min-width: 50px;
+	top: 225px;
+	/*outline: red 1px solid;*/
+	left:368px;
+	border-radius: 50px;
+	background-color: wheat;
+	Font-family: 'Lobster', cursive;
+
+	
+}
+
+.Favbutton:hover{
+    background-color: orange;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+/* Active text boxes*/
+
+
+.totalitemsbox{
+	width: 100px;
+	height: 60px;
+	position: absolute;
+	z-index: 4;
+	min-width: 10px;
+	top: 225px;
+	/*outline: red 1px solid*/
+	left:40px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	border-radius: 50px;
+	background-color: wheat;
+
+}
+
+
+
+.listbox{
+	width: 300px;
+	height: 230px;
+	position: absolute;
+	z-index: 8;
+	min-width: 100px;
+	top: 360px;
+	/*outline: red 1px solid;*/
+	left:100px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+}
+
+
+
+
+.favbox{
+	width: 140px;
+	height: 270px;
+	position: absolute;
+	z-index: 4;
+	min-width: 100px;
+	top: 228px;
+	outline: red 1px solid;
+	left:510px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	background-color: white;
+}
+
+
+
+
+/* Footer box movement*/
+.FOOTERBOX{
+
+	width: 510px;
+	height: 60px;
+	position: absolute;
+	z-index: 5;
+	min-width: 300px;
+	top: 605px;
+	left:0px;
+	background-color:white;
+	text-align:center;
+
+	
+}
+
+
+/* Footer text movement*/
+#by{
+	display:inline-block;
+	font-size:16px;
+	text-color: white;
+	Font-family: 'Lobster', cursive;
+
+}
+
+
+
+
+
+
+
+/*.KARIJ_FOOTER{
+	width: 510px;
+	height: 68px;
+
+	position: absolute;
+	min-width: 300px;
+
+	z-index:4;
+	top:675px;
+
+}
+*/
