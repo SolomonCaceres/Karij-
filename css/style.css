@@ -246,7 +246,7 @@ background-repeat: none;
 
 
 
-
+/*TESTING FAVORITE BOX
 .favbox{
 	width: 140px;
 	height: 270px;
@@ -260,6 +260,7 @@ background-repeat: none;
 	font-family: 'Comfortaa', cursive;
 	background-color: white;
 }
+*/
 
 
 
@@ -296,6 +297,133 @@ background-repeat: none;
 
 
 
+
+
+
+/* FAVORTIES BOX INFO*/
+.MAINFAVORITEBOX{
+
+	width: 230px;
+	height: 250px;
+	position: absolute;
+	z-index:15;
+	top: 210px;
+	left:880px;
+	text-align:center;
+	/*outline: red 1px solid;*/
+	background-color: wheat;
+	border-radius: 50px;
+}
+
+
+
+/*Clear button for Favorites tab*/
+#clear-form{
+
+	width: 80px;
+	height: 25px;
+	position: absolute;
+	z-index: 10;
+	background-color: white;
+	top: 15px;
+	left: 75px;
+	border-radius: 50px;
+	border-style: none;
+	text-color: black;
+}
+
+
+
+
+#Favbox{
+
+	width: 200px;
+	height: 16px;
+	position: absolute;
+	z-index: 10;
+	background-color: white;
+	top: 50px;
+	left: 15px;
+	border-radius: 50px;
+	border-style: none;
+	text-color: black;
+}
+
+
+#AFavbox{
+
+	width: 200px;
+	height: 16px;
+	position: absolute;
+	z-index: 10;
+	background-color: white;
+	top: 80px;
+	left: 15px;
+	border-radius: 50px;
+	border-style: none;
+	text-color: black;
+}
+
+#BFavbox{
+
+	width: 200px;
+	height: 16px;
+	position: absolute;
+	z-index: 10;
+	background-color: white;
+	top: 110px;
+	left: 15px;
+	border-radius: 50px;
+	border-style: none;
+	text-color: black;
+}
+
+#CFavbox{
+
+	width: 200px;
+	height: 16px;
+	position: absolute;
+	z-index: 10;
+	background-color: white;
+	top: 140px;
+	left: 15px;
+	border-radius: 50px;
+	border-style: none;
+	text-color: black;
+}
+
+#DFavbox{
+
+	width: 200px;
+	height: 16px;
+	position: absolute;
+	z-index: 10;
+	background-color: white;
+	top: 170px;
+	left: 15px;
+	border-radius: 50px;
+	border-style: none;
+	text-color: black;
+}
+
+#EFavbox{
+
+	width: 200px;
+	height: 16px;
+	position: absolute;
+	z-index: 10;
+	background-color: white;
+	top: 200px;
+	left: 15px;
+	border-radius: 50px;
+	border-style: none;
+	text-color: black;
+}
+
+
+
+
+
 /*.KARIJ_FOOTER{
 	width: 510px;
 	height: 68px;
@@ -308,3 +436,10 @@ background-repeat: none;
 
 }
 */
+/*
+#wrap { 
+  width: 900px; 
+  margin: 0 auto; 
+}*/
+
+
