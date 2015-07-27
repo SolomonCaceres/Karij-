@@ -104,7 +104,8 @@ $(".Favbutton").mousedown(function(){
 
 
 
-/*These are the text boxes within the MAINFAVORITEBOX Div. Once you click on the first one, the others pop up*/
+/*These are the text boxes within the MAINFAVORITEBOX Div. 
+Once you click on the first one, the others pop up*/
 
 $( ".MAINFAVORITEBOX" ).on( "click", "#Favbox", function() {
   $("#AFavbox").show();
@@ -150,7 +151,8 @@ $( ".MAINFAVORITEBOX" ).on( "click", "#EFavbox", function() {
 
 
 
-/*These are the text boxes within the MAINLISTBOX Div. Once you click on the first one, the others pop up*/
+/*These are the text boxes within the MAINLISTBOX Div. 
+Once you click on the first one, the others pop up*/
 
 $( ".MAINLISTBOX" ).on( "click", "#Listbox", function() {
   $("#AListbox").show();
